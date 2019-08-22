@@ -6,6 +6,9 @@ import Login from '@/components/Login'
 import GridTable from '@/components/GridTable'
 import VueInstance from '@/components/01VueInstance'
 import VueTemplete from '@/components/02Templete'
+import ComputedAndWatch from '@/components/03ComputedAndWatch'
+import ClassOrStyleBind from '@/components/04ClassOrStyleBind'
+import ConditionRender from '@/components/05ConditionRender'
 
 Vue.use(Router)
 
@@ -45,6 +48,24 @@ export default new Router({
             path: '/02Templete',
             name: 'VueTemplete',
             component: VueTemplete
+        },
+        {
+            //计算属性和侦听器
+            path: '/03ComputedAndWatch',
+            name: 'ComputedAndWatch',
+            component: ComputedAndWatch
+        },
+        {
+            // Class 和 Style 绑定
+            path: '/04ClassOrStyleBind',
+            name: 'ClassOrStyleBind',
+            component: ClassOrStyleBind
+        },
+        {
+            // 条件渲染
+            path: '/05ConditionRender',
+            name: 'ConditionRender',
+            component: ConditionRender
         }
     ]
 })
