@@ -9,6 +9,7 @@ import VueTemplete from '@/components/02Templete'
 import ComputedAndWatch from '@/components/03ComputedAndWatch'
 import ClassOrStyleBind from '@/components/04ClassOrStyleBind'
 import ConditionRender from '@/components/05ConditionRender'
+import ListRender from '@/components/06ListRender'
 
 Vue.use(Router)
 
@@ -66,6 +67,12 @@ export default new Router({
             path: '/05ConditionRender',
             name: 'ConditionRender',
             component: ConditionRender
+        },
+        {
+            // 列表渲染
+            path: '/06ListRender',
+            name: 'ListRender',
+            component: ListRender
         }
     ]
 })
