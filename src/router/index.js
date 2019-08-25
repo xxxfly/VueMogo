@@ -10,6 +10,7 @@ import ComputedAndWatch from '@/components/03ComputedAndWatch'
 import ClassOrStyleBind from '@/components/04ClassOrStyleBind'
 import ConditionRender from '@/components/05ConditionRender'
 import ListRender from '@/components/06ListRender'
+import EventHandle from '@/components/07EventHandle'
 
 Vue.use(Router)
 
@@ -73,6 +74,12 @@ export default new Router({
             path: '/06ListRender',
             name: 'ListRender',
             component: ListRender
+        },
+        {
+            // 事件处理
+            path: '/07EventHandle',
+            name: 'EventHandle',
+            component: EventHandle
         }
     ]
 })
