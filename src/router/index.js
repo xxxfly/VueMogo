@@ -11,6 +11,8 @@ import ClassOrStyleBind from '@/components/04ClassOrStyleBind'
 import ConditionRender from '@/components/05ConditionRender'
 import ListRender from '@/components/06ListRender'
 import EventHandle from '@/components/07EventHandle'
+import FormBind from '@/components/08FormBind'
+import ComponentBase from '@/components/09ComponentBase'
 
 Vue.use(Router)
 
@@ -80,6 +82,18 @@ export default new Router({
             path: '/07EventHandle',
             name: 'EventHandle',
             component: EventHandle
+        },
+        {
+            // 表单输入绑定
+            path: '/08FormBind',
+            name: 'FormBind',
+            component: FormBind
+        },
+        {
+            // 组件基础
+            path: '/09ComponentBase',
+            name: 'ComponentBase',
+            component: ComponentBase
         }
     ]
 })
