@@ -6,8 +6,9 @@
             <span v-bind:title="msgTitle">鼠标悬停几秒查看此处动态绑定的信息！</span>
         </p>
         <button type='button' @click="meTest">计数</button>
-        <a href='/login'>登录</a>        
+        <a href='/login'>登录</a>         
     </div>
+  
 </template>
 
 <script>
